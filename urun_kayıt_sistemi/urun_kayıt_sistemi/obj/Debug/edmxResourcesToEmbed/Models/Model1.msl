@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="urunModelStoreContainer" CdmEntityContainer="urunEntities">
+    <EntitySetMapping Name="Table">
+      <EntityTypeMapping TypeName="urunModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="UrunKodu" ColumnName="UrunKodu" />
+          <ScalarProperty Name="UrunUrl" ColumnName="UrunUrl" />
+          <ScalarProperty Name="Urunfiyat" ColumnName="Urunfiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

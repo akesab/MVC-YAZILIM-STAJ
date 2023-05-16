@@ -1,0 +1,54 @@
+﻿@model urun_kayıt_sistemi.Models.Table
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Ürün Detayları</h2>
+
+<div>
+
+    <hr />
+    <dt>
+        <img src="@Model.UrunUrl" width="200" height="200" />
+    </dt>
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UrunAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UrunAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UrunKodu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UrunKodu)
+        </dd>
+
+        @*<dt>
+                @Html.DisplayNameFor(model => model.UrunUrl)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UrunUrl)
+            </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Urunfiyat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Urunfiyat)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Düzenleme Sayfasına Git", "Edit", new { id = Model.UrunId }) |
+    @Html.ActionLink("Ürün Listesi Sayfasına Dön", "Index")
+</p>
