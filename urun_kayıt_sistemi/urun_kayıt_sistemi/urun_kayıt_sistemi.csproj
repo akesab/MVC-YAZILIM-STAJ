@@ -209,12 +209,12 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Urun\Create.cshtml" />
     <Content Include="Views\Urun\Delete.cshtml" />
     <Content Include="Views\Urun\Details.cshtml" />
     <Content Include="Views\Urun\Edit.cshtml" />
     <Content Include="Views\Urun\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
